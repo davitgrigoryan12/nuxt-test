@@ -1,8 +1,3 @@
-// import axios from '@nuxtjs/axios';
-// const token = localStorage.getItem('token')
-// console.log(window)
-// axios.defaults.headers.common["Authorization"] = `Bearer ${token}`;
-
 export const state = () => ({
   isAuth: false,
   token: ""

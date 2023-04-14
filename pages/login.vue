@@ -66,7 +66,6 @@ export default {
         .then(response => {
           this.setIsAuth(true)
           this.setToken(response.token)
-          localStorage.setItem("token", response.token)
           document.cookie += `${document.cookie ? ';' : ''} token=${response.token}`
           this.$router.push("/")
         })

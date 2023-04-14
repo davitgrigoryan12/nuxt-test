@@ -21,6 +21,7 @@
 
 <script>
 import { mapGetters, mapMutations } from 'vuex'
+import { getCookie } from '../utils/helper';
 
 export default {
   name: 'Navbar',
@@ -30,7 +31,7 @@ export default {
   },
 
   mounted() {
-    const token = localStorage.getItem("token")
+    const token = getCookie('token', document.cookie);
     if (token) {
       this.setIsAuth(true)
       this.setToken(token)
