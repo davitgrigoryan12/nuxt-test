@@ -1,0 +1,16 @@
+[
+  {
+    "name": "login",
+    "path": "/login",
+    "component": "/home/dev/Desktop/nuxt-test-task/pages/login.vue",
+    "chunkName": "pages/login",
+    "_name": "_16212f41"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/home/dev/Desktop/nuxt-test-task/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_4c798c2a"
+  }
+]

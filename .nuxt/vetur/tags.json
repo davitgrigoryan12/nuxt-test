@@ -1,0 +1,11 @@
+{
+  "Navbar": {
+    "description": "Auto imported from components/Navbar.vue"
+  },
+  "ProjectCart": {
+    "description": "Auto imported from components/ProjectCart.vue"
+  },
+  "ProjectModal": {
+    "description": "Auto imported from components/ProjectModal.vue"
+  }
+}
