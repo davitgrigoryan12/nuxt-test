@@ -1,6 +1,6 @@
-export { default as Navbar } from '../../components/Navbar.vue'
-export { default as ProjectCart } from '../../components/ProjectCart.vue'
-export { default as ProjectModal } from '../../components/ProjectModal.vue'
+export const Navbar = () => import('../../components/Navbar.vue' /* webpackChunkName: "components/navbar" */).then(c => wrapFunctional(c.default || c))
+export const ProjectCart = () => import('../../components/ProjectCart.vue' /* webpackChunkName: "components/project-cart" */).then(c => wrapFunctional(c.default || c))
+export const ProjectModal = () => import('../../components/ProjectModal.vue' /* webpackChunkName: "components/project-modal" */).then(c => wrapFunctional(c.default || c))
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {

@@ -1,0 +1,17 @@
+{
+  "entry": "server.js",
+  "files": {
+    "components/project-cart.js": "components/project-cart.js",
+    "components/project-modal.js": "components/project-modal.js",
+    "pages/index.js": "pages/index.js",
+    "pages/login.js": "pages/login.js",
+    "server.js": "server.js"
+  },
+  "maps": {
+    "components/project-cart.js": "components/project-cart.js.map",
+    "components/project-modal.js": "components/project-modal.js.map",
+    "pages/index.js": "pages/index.js.map",
+    "pages/login.js": "pages/login.js.map",
+    "server.js": "server.js.map"
+  }
+}
